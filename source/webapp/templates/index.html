@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+<h1>ToDo List</h1>
+{% for todo in todos %}
+    <h2>{{ todo.goal }}</h2>
+    <p>{{ todo.choice }}</p></br>
+    Started:{{ todo.started}}
+    </br>
+    <h3><a href="/todo/?id={{ todo.id }}">More...</a></h3>
+{% endfor %}
+<h3><a href="/todo/add/">Create new to do !</a></h3>
+</body>
+</html>

@@ -1,0 +1,80 @@
+[
+{
+  "model": "webapp.todo",
+  "pk": 1,
+  "fields": {
+    "goal": "Title",
+    "content": "Some long informative text",
+    "started": "2022-11-04T09:08:47.702Z",
+    "choice": "new"
+  }
+},
+{
+  "model": "webapp.todo",
+  "pk": 3,
+  "fields": {
+    "goal": "Title2",
+    "content": "Some long informative text2",
+    "started": "2022-11-04T09:19:59.860Z",
+    "choice": "new"
+  }
+},
+{
+  "model": "webapp.todo",
+  "pk": 5,
+  "fields": {
+    "goal": "4654",
+    "content": "43534534",
+    "started": "2022-11-04T10:19:42.618Z",
+    "choice": "new"
+  }
+},
+{
+  "model": "webapp.todo",
+  "pk": 6,
+  "fields": {
+    "goal": "wqeqe",
+    "content": "wqeqweqwe",
+    "started": "2022-11-04T10:32:19.953Z",
+    "choice": "new"
+  }
+},
+{
+  "model": "webapp.todo",
+  "pk": 7,
+  "fields": {
+    "goal": "qwe",
+    "content": "qwe",
+    "started": "2022-11-04T12:15:20.938Z",
+    "choice": "new"
+  }
+},
+{
+  "model": "webapp.todo",
+  "pk": 8,
+  "fields": {
+    "goal": "12",
+    "content": "12",
+    "started": "2022-11-04T12:15:30.751Z",
+    "choice": "new"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$jjd9wEdvE6uWgnQBRDAPEK$NzxTSNsnTVRpYlid+1KJKkecL3j8JxUv14JqUlY7PKk=",
+    "last_login": "2022-11-04T10:19:28.544Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-11-04T09:23:36.302Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
